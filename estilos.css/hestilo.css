@@ -7,9 +7,7 @@
     --cor1: rgb(5, 110, 209);
     --cor2:  rgb(20, 51, 109);
 }
-body {
-    background-color: var(--cor2);
-}
+
 header {
     background-image: linear-gradient(to right, var(--cor2), var(--cor1));
     text-align: center;
