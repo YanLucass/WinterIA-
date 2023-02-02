@@ -8,6 +8,9 @@
     --cor2:  rgb(20, 51, 109);
 }
 
+body {
+    background-image: url('f1.jpg');
+}
 header {
     background-image: linear-gradient(to right, var(--cor2), var(--cor1));
     text-align: center;
@@ -15,13 +18,15 @@ header {
     margin: 0;
 
 }
-h1 {
+header h1 {
+    font-size: 1.9em;
     font-weight: bold;
     color: white;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif; 
       
 }
+
 header > p {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -54,15 +59,18 @@ nav  a:hover {
 
 main {
     width: 50%;
-    background-color: rgb(229, 232, 238);
+    background-color: rgb(249, 251, 255);
      margin: 0px auto 0px auto;
     padding: 60px;
 }
+
 main h2 {
-    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor2);
     font-weight: bold;
 }
 main p {
     margin-top: 30px;
     color: white;
+    color: var(--cor2);
 }
